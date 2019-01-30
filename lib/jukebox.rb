@@ -53,9 +53,9 @@ def exit_jukebox
   puts "Goodbye"
 end
 
-def run
+def run(test)
   help
-  
+
   selection = ""
 
   while selection != "exit"
